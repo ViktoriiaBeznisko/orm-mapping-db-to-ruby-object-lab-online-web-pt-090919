@@ -33,7 +33,7 @@ class Student
     end.first
   end
   
-    def self.find_by_name(name)
+    def self.all_students_in_grade_9(grade)
     sql = <<-SQL
       SELECT * 
       FROM students
